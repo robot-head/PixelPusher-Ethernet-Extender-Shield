@@ -1,0 +1,305 @@
+(pcb "/Users/mattstone/Documents/code/PixelPusher-Ethernet-Extender-Shield/Reverse Polarity/Reverse Polarity.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2015-05-23 BZR 5679)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  201295 -140335  139700 -140335  139700 -123825  142875 -123825
+            142875 -85725  211455 -85725  211455 -124460  201295 -124460
+            201295 -140335)
+    )
+    (plane VCC (polygon F.Cu 0  142875 -85725  142875 -123825  139700 -123825  139700 -140335
+            201295 -140335  201295 -124460  211455 -124460  211455 -85725))
+    (plane GND (polygon In1.Cu 0  142875 -85725  142875 -123825  139700 -123825  139700 -140335
+            201295 -140335  201295 -124460  211455 -124460  211455 -85725))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Pin_Headers:Pin_Header_Straight_1x04
+      (place P6 159780 -136270 front 90 (PN CONN_01X04))
+      (place P3 174780 -128270 front 90 (PN CONN_01X04))
+      (place P8 189780 -136270 front 90 (PN CONN_01X04))
+      (place P7 174780 -136270 front 90 (PN CONN_01X04))
+      (place P5 144780 -136270 front 90 (PN CONN_01X04))
+      (place P4 189780 -128270 front 90 (PN CONN_01X04))
+      (place P2 159780 -128270 front 90 (PN CONN_01X04))
+      (place P1 144780 -128270 front 90 (PN CONN_01X04))
+    )
+    (component ab2_connector:AB2_RJ45_VERT_UNSHIELDED
+      (place RJ1 151765 -95250 front 0 (PN AB2_RJ45))
+      (place RJ2 168275 -95250 front 0 (PN AB2_RJ45))
+      (place RJ3 184785 -95250 front 0 (PN AB2_RJ45))
+      (place RJ4 201295 -95250 front 0 (PN AB2_RJ45))
+      (place RJ5 151765 -113030 front 0 (PN AB2_RJ45))
+      (place RJ6 168275 -113030 front 0 (PN AB2_RJ45))
+      (place RJ7 184785 -113030 front 0 (PN AB2_RJ45))
+      (place RJ8 201295 -113030 front 0 (PN AB2_RJ45))
+    )
+  )
+  (library
+    (image Pin_Headers:Pin_Header_Straight_1x04
+      (outline (path signal 50  -1750 1750  -1750 -9400))
+      (outline (path signal 50  1750 1750  1750 -9400))
+      (outline (path signal 50  -1750 1750  1750 1750))
+      (outline (path signal 50  -1750 -9400  1750 -9400))
+      (outline (path signal 150  -1270 -1270  -1270 -8890))
+      (outline (path signal 150  1270 -1270  1270 -8890))
+      (outline (path signal 150  1550 1550  1550 0))
+      (outline (path signal 150  -1270 -8890  1270 -8890))
+      (outline (path signal 150  1270 -1270  -1270 -1270))
+      (outline (path signal 150  -1550 0  -1550 1550))
+      (outline (path signal 150  -1550 1550  1550 1550))
+      (pin Rect[A]Pad_2032x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_2032x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_2032x1727.2_um 3 0 -5080)
+      (pin Oval[A]Pad_2032x1727.2_um 4 0 -7620)
+    )
+    (image ab2_connector:AB2_RJ45_VERT_UNSHIELDED
+      (outline (path signal 127  -4064 4318  -4064 -4064))
+      (outline (path signal 127  -4064 -4064  4064 -4064))
+      (outline (path signal 127  4064 -4064  4064 4318))
+      (outline (path signal 127  2286 -5588  5080 -5588))
+      (outline (path signal 127  5080 -5588  5080 -3810))
+      (outline (path signal 127  5080 -3810  6350 -3810))
+      (outline (path signal 127  6350 -3810  6350 -3302))
+      (outline (path signal 127  6350 -3302  6858 -3302))
+      (outline (path signal 127  -6858 -3302  -6350 -3302))
+      (outline (path signal 127  -6350 -3302  -6350 -3810))
+      (outline (path signal 127  -6350 -3810  -5080 -3810))
+      (outline (path signal 127  -5080 -3810  -5080 -5588))
+      (outline (path signal 127  -2286 -5588  -5080 -5588))
+      (outline (path signal 127  6858 508  6350 508))
+      (outline (path signal 127  6350 508  6350 3556))
+      (outline (path signal 127  6350 3556  5080 3556))
+      (outline (path signal 127  5080 3556  5080 4318))
+      (outline (path signal 127  -5080 4318  5080 4318))
+      (outline (path signal 127  -6858 508  -6350 508))
+      (outline (path signal 127  -6350 508  -6350 3556))
+      (outline (path signal 127  -6350 3556  -5080 3556))
+      (outline (path signal 127  -5080 3556  -5080 4318))
+      (outline (path signal 127  6858 508  6858 -3302))
+      (outline (path signal 127  -6858 508  -6858 -3302))
+      (outline (path signal 127  -2286 -5588  -2286 -7620))
+      (outline (path signal 127  -2286 -7620  2286 -7620))
+      (outline (path signal 127  2286 -7620  2286 -5588))
+      (outline (path signal 127  3556 -1016  3810 -1524))
+      (outline (path signal 127  3556 -1016  3302 -1524))
+      (outline (path signal 127  3556 3810  3556 -1016))
+      (outline (path signal 127  3302 4318  3810 4318))
+      (outline (path signal 127  3810 4318  3556 3810))
+      (outline (path signal 127  3556 3810  3302 4318))
+      (outline (path signal 127  2540 3810  2540 -1016))
+      (outline (path signal 127  2286 4318  2794 4318))
+      (outline (path signal 127  2794 4318  2540 3810))
+      (outline (path signal 127  2540 3810  2286 4318))
+      (outline (path signal 127  2540 -1016  2794 -1524))
+      (outline (path signal 127  2540 -1016  2286 -1524))
+      (outline (path signal 127  1524 3810  1524 -1016))
+      (outline (path signal 127  1270 4318  1778 4318))
+      (outline (path signal 127  1778 4318  1524 3810))
+      (outline (path signal 127  1524 3810  1270 4318))
+      (outline (path signal 127  1524 -1016  1778 -1524))
+      (outline (path signal 127  1524 -1016  1270 -1524))
+      (outline (path signal 127  508 -1016  762 -1524))
+      (outline (path signal 127  508 3810  508 -1016))
+      (outline (path signal 127  508 -1016  254 -1524))
+      (outline (path signal 127  254 4318  762 4318))
+      (outline (path signal 127  762 4318  508 3810))
+      (outline (path signal 127  508 3810  254 4318))
+      (outline (path signal 127  -508 -1016  -508 3810))
+      (outline (path signal 127  -508 3810  -762 4318))
+      (outline (path signal 127  -762 4318  -254 4318))
+      (outline (path signal 127  -254 4318  -508 3810))
+      (outline (path signal 127  -2540 -1016  -2286 -1524))
+      (outline (path signal 127  -2540 -1016  -2794 -1524))
+      (outline (path signal 127  -3556 -1016  -3302 -1524))
+      (outline (path signal 127  -3556 -1016  -3810 -1524))
+      (outline (path signal 127  -3810 4318  -3302 4318))
+      (outline (path signal 127  -3302 4318  -3556 3810))
+      (outline (path signal 127  -3556 3810  -3810 4318))
+      (outline (path signal 127  -2794 4318  -2286 4318))
+      (outline (path signal 127  -2540 3810  -2286 4318))
+      (outline (path signal 127  -2540 3810  -2794 4318))
+      (outline (path signal 127  -1778 4318  -1270 4318))
+      (outline (path signal 127  -1524 3810  -1270 4318))
+      (outline (path signal 127  -1778 4318  -1524 3810))
+      (outline (path signal 127  -1524 -1016  -1270 -1524))
+      (outline (path signal 127  -1524 -1016  -1778 -1524))
+      (outline (path signal 127  -508 -1016  -254 -1524))
+      (outline (path signal 127  -508 -1016  -762 -1524))
+      (outline (path signal 127  -1524 3810  -1524 -1016))
+      (outline (path signal 127  -2540 3810  -2540 -1016))
+      (outline (path signal 127  -3556 3810  -3556 -1016))
+      (outline (path signal 127  254 -1524  254 4318))
+      (outline (path signal 127  762 -1524  762 4318))
+      (outline (path signal 127  1778 -1524  1778 4318))
+      (outline (path signal 127  1270 -1524  1270 4318))
+      (outline (path signal 127  3302 -1524  3302 4318))
+      (outline (path signal 127  3810 -1524  3810 4318))
+      (outline (path signal 127  2794 -1524  2794 4318))
+      (outline (path signal 127  2286 -1524  2286 4318))
+      (outline (path signal 127  -1778 -1524  -1778 4318))
+      (outline (path signal 127  -1270 -1524  -1270 4318))
+      (outline (path signal 127  -254 -1524  -254 4318))
+      (outline (path signal 127  -762 -1524  -762 4318))
+      (outline (path signal 127  -2794 -1524  -2794 4318))
+      (outline (path signal 127  -2286 -1524  -2286 4318))
+      (outline (path signal 127  -3302 -1524  -3302 4318))
+      (outline (path signal 127  -3810 -1524  -3810 4318))
+      (outline (path signal 127  -7940 8320  7940 8320))
+      (outline (path signal 127  7940 8320  7940 -8320))
+      (outline (path signal 127  7940 -8320  -7940 -8320))
+      (outline (path signal 127  -7940 -8320  -7940 8320))
+      (pin Round[A]Pad_1371.6_um 8 4445 7180)
+      (pin Round[A]Pad_1371.6_um 6 1905 7180)
+      (pin Round[A]Pad_1371.6_um 1 -4445 4640)
+      (pin Round[A]Pad_1371.6_um 2 -3175 7180)
+      (pin Round[A]Pad_1371.6_um 3 -1905 4640)
+      (pin Round[A]Pad_1371.6_um 4 -635 7180)
+      (pin Round[A]Pad_1371.6_um 5 635 4640)
+      (pin Round[A]Pad_1371.6_um 7 3175 4640)
+      (keepout "" (circle F.Cu 3250 -5715 -1710))
+      (keepout "" (circle In1.Cu 3250 -5715 -1710))
+      (keepout "" (circle F.Cu 3250 5715 -1710))
+      (keepout "" (circle In1.Cu 3250 5715 -1710))
+    )
+    (padstack Round[A]Pad_1371.6_um
+      (shape (circle F.Cu 1371.6))
+      (shape (circle In1.Cu 1371.6))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2032x1727.2_um
+      (shape (path F.Cu 1727.2  -152.4 0  152.4 0))
+      (shape (path In1.Cu 1727.2  -152.4 0  152.4 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x1727.2_um
+      (shape (rect F.Cu -1016 -863.6 1016 863.6))
+      (shape (rect In1.Cu -1016 -863.6 1016 863.6))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC
+      (pins P6-1 P3-1 P8-1 P7-1 P5-1 P4-1 P2-1 RJ1-1 RJ1-2 RJ1-3 P1-1 RJ2-1 RJ2-2
+        RJ2-3 RJ3-1 RJ3-2 RJ3-3 RJ4-1 RJ4-2 RJ4-3 RJ5-1 RJ5-2 RJ5-3 RJ6-1 RJ6-2 RJ6-3
+        RJ7-1 RJ7-2 RJ7-3 RJ8-1 RJ8-2 RJ8-3)
+    )
+    (net "Net-(P1-Pad2)"
+      (pins RJ1-7 P1-2)
+    )
+    (net "Net-(P1-Pad3)"
+      (pins RJ1-8 P1-3)
+    )
+    (net GND
+      (pins P6-4 P3-4 P8-4 P7-4 P5-4 P4-4 P2-4 RJ1-6 RJ1-4 RJ1-5 P1-4 RJ2-6 RJ2-4
+        RJ2-5 RJ3-6 RJ3-4 RJ3-5 RJ4-6 RJ4-4 RJ4-5 RJ5-6 RJ5-4 RJ5-5 RJ6-6 RJ6-4 RJ6-5
+        RJ7-6 RJ7-4 RJ7-5 RJ8-6 RJ8-4 RJ8-5)
+    )
+    (net "Net-(P2-Pad2)"
+      (pins P2-2 RJ2-7)
+    )
+    (net "Net-(P2-Pad3)"
+      (pins P2-3 RJ2-8)
+    )
+    (net "Net-(P3-Pad2)"
+      (pins P3-2 RJ3-7)
+    )
+    (net "Net-(P3-Pad3)"
+      (pins P3-3 RJ3-8)
+    )
+    (net "Net-(P4-Pad2)"
+      (pins P4-2 RJ4-7)
+    )
+    (net "Net-(P4-Pad3)"
+      (pins P4-3 RJ4-8)
+    )
+    (net "Net-(P5-Pad2)"
+      (pins P5-2 RJ5-7)
+    )
+    (net "Net-(P5-Pad3)"
+      (pins P5-3 RJ5-8)
+    )
+    (net "Net-(P6-Pad2)"
+      (pins P6-2 RJ6-7)
+    )
+    (net "Net-(P6-Pad3)"
+      (pins P6-3 RJ6-8)
+    )
+    (net "Net-(P7-Pad2)"
+      (pins P7-2 RJ7-7)
+    )
+    (net "Net-(P7-Pad3)"
+      (pins P7-3 RJ7-8)
+    )
+    (net "Net-(P8-Pad2)"
+      (pins P8-2 RJ8-7)
+    )
+    (net "Net-(P8-Pad3)"
+      (pins P8-3 RJ8-8)
+    )
+    (class kicad_default "" GND "Net-(P1-Pad2)" "Net-(P1-Pad3)" "Net-(P2-Pad2)"
+      "Net-(P2-Pad3)" "Net-(P3-Pad2)" "Net-(P3-Pad3)" "Net-(P4-Pad2)" "Net-(P4-Pad3)"
+      "Net-(P5-Pad2)" "Net-(P5-Pad3)" "Net-(P6-Pad2)" "Net-(P6-Pad3)" "Net-(P7-Pad2)"
+      "Net-(P7-Pad3)" "Net-(P8-Pad2)" "Net-(P8-Pad3)" VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  149860 -128270  149860 -128118)(net "Net-(P1-Pad3)")(type protect))
+    (wire (path F.Cu 250  162320 -128270  162320 -128118)(net "Net-(P2-Pad2)")(type protect))
+    (wire (path F.Cu 250  177320 -128270  177320 -128118)(net "Net-(P3-Pad2)")(type protect))
+    (wire (path F.Cu 250  179860 -128118  179860 -128270)(net "Net-(P3-Pad3)")(type protect))
+    (wire (path F.Cu 250  192320 -128270  192320 -128118)(net "Net-(P4-Pad2)")(type protect))
+    (wire (path In1.Cu 250  154940 -108390  148671 -114659  148671 -133653  147320 -135004
+            147320 -136270)(net "Net-(P5-Pad2)")(type protect))
+    (wire (path In1.Cu 250  156210 -105850  156210 -113124  151049 -118285  151049 -133815
+            149860 -135004  149860 -136270)(net "Net-(P5-Pad3)")(type protect))
+    (wire (path In1.Cu 250  171450 -108390  171450 -119847  163509 -127788  163509 -133815
+            162320 -135004  162320 -136270)(net "Net-(P6-Pad2)")(type protect))
+    (wire (path In1.Cu 250  172720 -105850  172720 -113124  171900 -113944  171900 -129078
+            164860 -136118  164860 -136270)(net "Net-(P6-Pad3)")(type protect))
+    (wire (path In1.Cu 250  187960 -108390  187960 -118337  178671 -127625  178671 -133653
+            177320 -135004  177320 -136270)(net "Net-(P7-Pad2)")(type protect))
+    (wire (path In1.Cu 250  189230 -105850  189230 -113124  188410 -113944  188410 -127568
+            179860 -136118  179860 -136270)(net "Net-(P7-Pad3)")(type protect))
+    (wire (path In1.Cu 250  204470 -108390  204470 -119367  196049 -127788  196049 -132389
+            192320 -136118  192320 -136270)(net "Net-(P8-Pad2)")(type protect))
+    (wire (path In1.Cu 250  205740 -105850  205740 -113124  205060 -113804  205060 -119425
+            199390 -125095  199390 -131588  194860 -136118  194860 -136270)(net "Net-(P8-Pad3)")(type protect))
+  )
+)

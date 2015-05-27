@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ab2_connectivity
 LIBS:Reverse Polarity-cache
 EELAYER 25 0
 EELAYER END
