@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-26 BZR 5680)-product   date = Tuesday, May 26, 2015 'PMt' 08:39:01 PM
+
+BeginCmp
+TimeStamp = /556539B2;
+Reference = P1;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653CBE;
+Reference = P2;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653E1A;
+Reference = P3;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653E52;
+Reference = P4;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55654042;
+Reference = P5;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /5565407A;
+Reference = P6;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /556540B2;
+Reference = P7;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /556540EA;
+Reference = P8;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653957;
+Reference = RJ1;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653CB8;
+Reference = RJ2;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653E14;
+Reference = RJ3;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55653E4C;
+Reference = RJ4;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5565403C;
+Reference = RJ5;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /55654074;
+Reference = RJ6;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /556540AC;
+Reference = RJ7;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+BeginCmp
+TimeStamp = /556540E4;
+Reference = RJ8;
+ValeurCmp = AB2_RJ45;
+IdModule  = ab2_connector:AB2_RJ45_VERT_UNSHIELDED;
+EndCmp
+
+EndListe

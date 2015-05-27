@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ab2_connector)(type KiCad)(uri /Users/mattstone/Documents/code/ab2tech_kicad_libs/KiCad/modules/ab2_connector.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/mattstone/Documents/code/PixelPusher-Ethernet-Extender-Shield/Reverse Polarity/Reverse Polarity.sch</source>
+    <date>Tuesday, May 26, 2015 'PMt' 08:25:38 PM</date>
+    <tool>Eeschema (2015-05-26 BZR 5680)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Reverse Polarity.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RJ1">
+      <value>AB2_RJ45</value>
+      <libsource lib="ab2_connectivity" part="AB2_RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55653957</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556539B2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ab2_connectivity" part="AB2_RJ45">
+      <fields>
+        <field name="Reference">RJ45</field>
+        <field name="Value">AB2_RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="13" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ab2_connectivity">
+      <uri>/Users/mattstone/Documents/code/ab2tech_kicad_libs/KiCad/library/ab2_connectivity.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="P1" pin="1"/>
+      <node ref="RJ1" pin="3"/>
+      <node ref="RJ1" pin="2"/>
+      <node ref="RJ1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="RJ1" pin="7"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+      <node ref="RJ1" pin="8"/>
+    </net>
+    <net code="4" name="Net-(RJ1-Pad13)">
+      <node ref="RJ1" pin="13"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="P1" pin="4"/>
+      <node ref="RJ1" pin="6"/>
+      <node ref="RJ1" pin="5"/>
+      <node ref="RJ1" pin="4"/>
+    </net>
+  </nets>
+</export>
