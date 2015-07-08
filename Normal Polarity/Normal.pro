@@ -1,4 +1,4 @@
-update=Monday, May 25, 2015 'PMt' 11:13:32 PM
+update=Tuesday, May 26, 2015 'PMt' 08:35:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -20,6 +20,9 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[cvpcb]
+version=1
+NetIExt=net
 [general]
 version=1
 [eeschema]
@@ -55,6 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[cvpcb]
-version=1
-NetIExt=net
+LibName30=/Users/mattstone/Documents/code/ab2tech_kicad_libs/KiCad/library/ab2_connectivity
+LibName31=ab2_connectivity
